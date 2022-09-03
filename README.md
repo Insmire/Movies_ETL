@@ -10,10 +10,15 @@ Data source (files too large for upload):
   - ratings.csv
 
 Tools:
+  - Anaconda
+  - JSON
+  - Jupyter Notebook
   - NumPy
   - Pandas
+  - psycopg2
   - regular expressions (regex)
-  - 
+  - SQLAlchemy
+  
 
 ---
 
