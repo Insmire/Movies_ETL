@@ -4,7 +4,7 @@ The largest online retailer Amazing Prime Video is sponsoring a hackathon reques
 ---
 
 ## Resources
-Data source (files too large for upload):
+Data source (files exceed upload upload capacity):
   - wikipedia-movies.json
   - movies_metadata.csv
   - ratings.csv
