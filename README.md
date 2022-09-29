@@ -22,7 +22,7 @@ Tools:
 ---
 
 ## Results
-
+Filtering the available movies via the ETL pipeline shows that there are a total of five movies with 31 unique identifying information that may become popular box office films. 
 
 ---
 
