@@ -22,7 +22,7 @@ Tools:
 ---
 
 ## Results
-Filtering the available movies via the ETL pipeline shows that there are a total of five movies with 31 unique identifying information that may become popular box office films. 
+Filtering the available movies via the ETL pipeline shows that there are a total of five movies that may become popular box office films. Each movie within the SQL table contain 31 columns of information including IMDB ID, Kaggle ID, title, original title, tagline, Wikipedia URL, IMDB link, runtime, budget, etc.
 
 ---
 
