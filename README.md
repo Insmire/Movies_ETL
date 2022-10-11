@@ -27,6 +27,7 @@ As shown below, filtering the available movies via the ETL pipeline shows that t
 movies screnenshot
 
 ratings screenshot
+
 ---
 
 ## Summary
