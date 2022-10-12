@@ -28,6 +28,6 @@ movies screnenshot
 
 ratings screenshot
 
----
+<!-- ---
 
-## Summary
+## Summary -->
