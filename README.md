@@ -33,6 +33,7 @@ A total of 26,024,289 of ratings are available as shown below from SQL query.
 <!-- screenshot of code -->
 
 
+
 <!-- conclusion -->
 
 <!-- ## Summary -->
