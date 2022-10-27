@@ -22,6 +22,20 @@ Tools:
 ---
 
 ## Results
+The three files are extracted and read as dataframes.
+
+wiki_movies_df
+
+![wiki_movies_df](https://user-images.githubusercontent.com/96349090/198216496-d4a1db57-5291-4c5d-b1e6-3eada3221aa3.png)
+
+movies_metadata_df
+
+![kaggle_metadata_df](https://user-images.githubusercontent.com/96349090/198216534-8e05ea76-9e68-42f3-9c3d-d8deb0d484df.png)
+
+ratings_df
+
+![ratings_df](https://user-images.githubusercontent.com/96349090/198216572-e8f7068b-ce8f-47ee-b671-4a1b2ca7dbba.png)
+
 As shown below, filtering the available movies via the ETL pipeline shows that there are a total of 6052 movies that may become popular box office films. Each movie within the SQL table contain 31 columns of information including IMDB ID, Kaggle ID, title, original title, tagline, Wikipedia URL, IMDB link, runtime, budget, etc. The unique identifier is the IMDB ID.
 
 ![movies_query](https://user-images.githubusercontent.com/96349090/195522131-0b5cad0e-85c5-45bf-bd22-c07bbd0fbfe0.png)
@@ -30,11 +44,7 @@ A total of 26,024,289 of ratings are available as shown below from SQL query.
 
 ![ratings_query](https://user-images.githubusercontent.com/96349090/195522238-f3900f70-5023-4446-8db9-f9ded8449306.png)
 
-Extract code
-
-Transform code
-
-Load code
+ETL code
 
 <!-- conclusion -->
 
