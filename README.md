@@ -44,7 +44,7 @@ A total of 26,024,289 of ratings are available as shown below from SQL query.
 
 ![ratings_query](https://user-images.githubusercontent.com/96349090/195522238-f3900f70-5023-4446-8db9-f9ded8449306.png)
 
-ETL code
+ETL code screenshot
 
 <!-- conclusion -->
 
