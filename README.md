@@ -36,6 +36,8 @@ ratings_df
 
 ![ratings_df](https://user-images.githubusercontent.com/96349090/198216572-e8f7068b-ce8f-47ee-b671-4a1b2ca7dbba.png)
 
+<!-- transformed df's screenshots -->
+
 As shown below, filtering the available movies via the ETL pipeline shows that there are a total of 6052 movies that may become popular box office films. Each movie within the SQL table contain 31 columns of information including IMDB ID, Kaggle ID, title, original title, tagline, Wikipedia URL, IMDB link, runtime, budget, etc. The unique identifier is the IMDB ID.
 
 ![movies_query](https://user-images.githubusercontent.com/96349090/195522131-0b5cad0e-85c5-45bf-bd22-c07bbd0fbfe0.png)
