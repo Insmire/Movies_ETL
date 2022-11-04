@@ -22,7 +22,7 @@ Tools:
 ---
 
 ## Results
-The three files are extracted and read as dataframes.
+The three files are extracted and read in Jupyter as dataframes.
 
 wiki_movies_df
 
@@ -35,6 +35,8 @@ movies_metadata_df
 ratings_df
 
 ![ratings_df](https://user-images.githubusercontent.com/96349090/198216572-e8f7068b-ce8f-47ee-b671-4a1b2ca7dbba.png)
+
+The dataframes are then transformed by deleting unreadable rows or columns.
 
 <!-- transformed df's screenshots -->
 
