@@ -38,7 +38,17 @@ ratings_df
 
 The dataframes are then transformed by deleting unreadable rows or columns.
 
-<!-- transformed df's screenshots -->
+transformed wiki_movies_df
+
+
+
+transformed movies_metadata_df
+
+
+
+transformed ratings_df
+
+
 
 As shown below, filtering the available movies via the ETL pipeline shows that there are a total of 6052 movies that may become popular box office films. Each movie within the SQL table contain 31 columns of information including IMDB ID, Kaggle ID, title, original title, tagline, Wikipedia URL, IMDB link, runtime, budget, etc. The unique identifier is the IMDB ID.
 
