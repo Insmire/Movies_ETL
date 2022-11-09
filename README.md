@@ -36,7 +36,7 @@ ratings_df
 
 ![ratings_df](https://user-images.githubusercontent.com/96349090/198216572-e8f7068b-ce8f-47ee-b671-4a1b2ca7dbba.png)
 
-The dataframes are then transformed by deleting unreadable rows or columns.
+The dataframes are then transformed by using a try-except block to catch errors, filtering for specific values with regualr expressions, deleting unreadable rows or columns, and cleaning any null values.
 
 transformed wiki_movies_df
 
