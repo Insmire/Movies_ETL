@@ -49,7 +49,7 @@ transformed movies_metadata_df
 transformed ratings_df
 
 
-All three dataframes are merged to create a single dataframe, movies_df, and added to a SQL database.
+The transformed dataframes are merged and added to a SQL database as tables named movies and ratings. The movies table has 6,052 rows and the ratings table has 26,024,289 rows.
 
 As shown below, filtering the available movies via the ETL pipeline shows that there are a total of 6052 movies that may become popular box office films. Each movie within the SQL table contain 31 columns of information including IMDB ID, Kaggle ID, title, original title, tagline, Wikipedia URL, IMDB link, runtime, budget, etc. The unique identifier is the IMDB ID.
 
