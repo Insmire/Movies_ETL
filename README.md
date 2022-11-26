@@ -45,3 +45,11 @@ A total of 26,024,289 of ratings are available as shown below from SQL query.
 | movies_df | ratings_df |
 | :---: | :---: |
 | ![movies_query](https://user-images.githubusercontent.com/96349090/195522131-0b5cad0e-85c5-45bf-bd22-c07bbd0fbfe0.png) | ![ratings_query](https://user-images.githubusercontent.com/96349090/195522238-f3900f70-5023-4446-8db9-f9ded8449306.png) |
+
+---
+
+### Contact
+
+Email: show.wang94@gmail.com
+
+LinkedIn: [https://www.linkedin.com/in/show-kate-w-802b36168](https://www.linkedin.com/in/show-kate-w-802b36168)
