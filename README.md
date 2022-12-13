@@ -38,7 +38,7 @@ movies_df
 
 I added movies_df to a SQL database along with ratings_df as tables named movies and ratings.
 
-As shown below, filtering the available movies via the ETL pipeline shows that a total of 6052 movies have potentiality to become established box office films. Each movie within the SQL table contains 31 columns of information, including IMDB ID, Kaggle ID, title, original title, tagline, Wikipedia URL, IMDB link, runtime, budget, etc. The unique identifier is the IMDB ID.
+As shown below, filtering the available movies via the ETL pipeline shows that a total of 6052 movies have the potentiality to become established box office films. Each movie within the SQL table contains 31 columns of information, including IMDB ID, Kaggle ID, title, original title, tagline, Wikipedia URL, IMDB link, runtime, budget, etc. The unique identifier is the IMDB ID.
 
 A total of 26,024,289 ratings are available, as shown below from the SQL query.
 
