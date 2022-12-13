@@ -32,9 +32,9 @@ I then transformed the DataFrames by using a try-except block to catch errors, r
 
 I merged the DataFrames wiki_movies_df and movies_metadata_df into a new DataFrame movies_df.
 
-movies_df
-
-![transformed_movies_df](https://user-images.githubusercontent.com/96349090/204075400-cbc10833-4b95-4d21-9005-fa6230f52b48.png)
+| movies_df |
+| :---: |
+| ![transformed_movies_df](https://user-images.githubusercontent.com/96349090/204075400-cbc10833-4b95-4d21-9005-fa6230f52b48.png) |
 
 I added movies_df to a SQL database along with ratings_df as tables named movies and ratings.
 
