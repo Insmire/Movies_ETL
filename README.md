@@ -1,10 +1,10 @@
 ## Overview
-The largest online retailer Amazing Prime Video is sponsoring a hackathon requesting participants to determine which low-budget movies will become popular box office films. Amazing Prime Video plans to obtain rights to the potentially popular movies for their streaming service. The purpose of this project is to assist their team in creating the list of movies to be used for the hackathon. To this end, I create a extract, transform, and load (ETL) pipeline to automate the data wrangling process. The pipeline is implemented on one dataset of all movies released after 1990 from Wikipedia and another dataset of movie ratings from MovieLens in Kaggle. The resulting clean data is stored within a SQL database.
+The largest online retailer Amazon Prime Video is sponsoring a hackathon requesting participants to determine which low-budget movies will become popular box office films. Amazon Prime Video plans to obtain rights to these potentially popular movies for their streaming service. The purpose of this project is to assist their team in creating the list of movies to be used for the hackathon. To this end, I created an extract, transform, and load (ETL) pipeline to automate the data wrangling process. I then implemented the pipeline on one dataset of all movies released after 1990 from Wikipedia and another dataset of movie ratings from MovieLens in Kaggle. Lastly, I stored the resulting clean data within a SQL database.
 
 ---
 
 ## Resources
-Data source (files exceed upload upload capacity):
+Data source (files exceed upload capacity):
   - wikipedia-movies.json
   - movies_metadata.csv
   - ratings.csv
@@ -22,25 +22,25 @@ Tools:
 ---
 
 ## Results
-The three files are extracted and read in Jupyter as dataframes.
+As shown below, I extracted and read the three files in Jupyter as DataFrames.
 
 | wiki_movies_df | movies_metadata_df | ratings_df |
 | :---: | :---: | :---: |
 | ![wiki_movies_df](https://user-images.githubusercontent.com/96349090/198216496-d4a1db57-5291-4c5d-b1e6-3eada3221aa3.png) |  ![kaggle_metadata_df](https://user-images.githubusercontent.com/96349090/198216534-8e05ea76-9e68-42f3-9c3d-d8deb0d484df.png) | ![ratings_df](https://user-images.githubusercontent.com/96349090/198216572-e8f7068b-ce8f-47ee-b671-4a1b2ca7dbba.png) |
 
-The dataframes are then transformed by using a try-except block to catch errors, refactoring code, filtering for specific values with regualr expressions, deleting unreadable rows or columns, and cleaning any null values.
+I then transformed the DataFrames by using a try-except block to catch errors, refactoring code, filtering for specific values with regular expressions, deleting unreadable rows or columns, and cleaning any null values.
 
-The dataframes wiki_movies_df and movies_metadata_df are merged into a new dataframe movies_df.
+I merged the DataFrames wiki_movies_df and movies_metadata_df into a new DataFrame movies_df.
 
 movies_df
 
 ![transformed_movies_df](https://user-images.githubusercontent.com/96349090/204075400-cbc10833-4b95-4d21-9005-fa6230f52b48.png)
 
-movies_df is added to a SQL database along with ratings_df as tables named movies and ratings.
+I added movies_df to a SQL database along with ratings_df as tables named movies and ratings.
 
-As shown below, filtering the available movies via the ETL pipeline shows that there are a total of 6052 movies that may become popular box office films. Each movie within the SQL table contain 31 columns of information including IMDB ID, Kaggle ID, title, original title, tagline, Wikipedia URL, IMDB link, runtime, budget, etc. The unique identifier is the IMDB ID.
+As shown below, filtering the available movies via the ETL pipeline shows that a total of 6052 movies have potentiality to become established box office films. Each movie within the SQL table contains 31 columns of information, including IMDB ID, Kaggle ID, title, original title, tagline, Wikipedia URL, IMDB link, runtime, budget, etc. The unique identifier is the IMDB ID.
 
-A total of 26,024,289 of ratings are available as shown below from SQL query.
+A total of 26,024,289 ratings are available, as shown below from the SQL query.
 
 | movies_df | ratings_df |
 | :---: | :---: |
