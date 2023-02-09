@@ -3,24 +3,6 @@ The largest online retailer Amazon Prime Video is sponsoring a hackathon request
 
 ---
 
-## Resources
-Data source (files exceed upload capacity):
-  - wikipedia-movies.json
-  - movies_metadata.csv
-  - ratings.csv
-
-Tools:
-  - Anaconda
-  - JSON
-  - Jupyter Notebook
-  - NumPy
-  - Pandas
-  - psycopg2
-  - regular expressions (regex)
-  - SQLAlchemy
-
----
-
 ## Results
 As shown below, I extracted and read the three files in Jupyter as DataFrames.
 
@@ -45,6 +27,26 @@ A total of 26,024,289 ratings are available, as shown below from the SQL query.
 | movies_df | ratings_df |
 | :---: | :---: |
 | ![movies_query](https://user-images.githubusercontent.com/96349090/195522131-0b5cad0e-85c5-45bf-bd22-c07bbd0fbfe0.png) | ![ratings_query](https://user-images.githubusercontent.com/96349090/195522238-f3900f70-5023-4446-8db9-f9ded8449306.png) |
+
+---
+
+## Resources
+Data source (files exceed upload capacity):
+
+  - wikipedia-movies.json
+  - movies_metadata.csv
+  - ratings.csv
+
+Tools:
+
+  - Anaconda
+  - JSON
+  - Jupyter Notebook
+  - NumPy
+  - Pandas
+  - psycopg2
+  - regular expressions (regex)
+  - SQLAlchemy
 
 ---
 
