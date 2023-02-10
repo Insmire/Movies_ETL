@@ -54,4 +54,4 @@ Tools:
 
 Email: show.wang94@gmail.com
 
-LinkedIn: [https://www.linkedin.com/in/show-kate-w-802b36168](https://www.linkedin.com/in/show-kate-w-802b36168)
+LinkedIn: [www.linkedin.com/in/s-k-wang](www.linkedin.com/in/s-k-wang)
