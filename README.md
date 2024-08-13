@@ -18,7 +18,7 @@ I merged the DataFrames wiki_movies_df and movies_metadata_df into a new DataFra
 | :---: |
 | ![transformed_movies_df](https://user-images.githubusercontent.com/96349090/204075400-cbc10833-4b95-4d21-9005-fa6230f52b48.png) |
 
-I added movies_df to a SQL database along with ratings_df as tables named movies and ratings.
+I added movies_df to an SQL database along with ratings_df as tables named movies and ratings.
 
 As shown below, filtering the available movies via the ETL pipeline shows that a total of 6052 movies have the potential to become established box office films. Each movie within the SQL table contains 31 columns of information, including IMDB ID, Kaggle ID, title, original title, tagline, Wikipedia URL, IMDB link, runtime, budget, etc. The unique identifier is the IMDB ID.
 
@@ -40,14 +40,14 @@ Data source (files exceed upload capacity):
 Tools:
 
   - Anaconda
-  - JSON
   - Jupyter Notebook
   - NumPy
   - Pandas
   - psycopg2
   - regular expressions (regex)
   - SQLAlchemy
-
+  - JavaScript Object Notation (JSON)
+    
 ---
 
 ### Contact
